@@ -99,4 +99,4 @@ pub use self::stream_config_request_all_of::StreamConfigRequestAllOf;
 pub mod stream_exclusion_request;
 pub use self::stream_exclusion_request::StreamExclusionRequest;
 pub mod export;
-pub use self::export::LogLine;
+pub use self::export::{LogLine, LogExport}
